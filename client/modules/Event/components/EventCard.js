@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   image: {
     display: 'flex',
     flexGrow: 1,
-    backgroundColor: 'skyblue',
+    backgroundColor: 'black',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
     backgroundSize: 'cover',
@@ -41,6 +41,7 @@ import bg from '../../../assets/football1.jpeg';
 
 const EventCard = (props) => {
   const inlineStyle = {
+    backgroundColor: 'black',
     backgroundImage: `url(${bg})`,
   };
 

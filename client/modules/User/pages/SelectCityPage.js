@@ -15,8 +15,9 @@ const styles = StyleSheet.create({
   },
   listItem: {
     paddingTop: '0.75rem',
-
-  }
+    textDecoration: 'none',
+    color: 'white',
+  },
 });
 
 class SelectCityPage extends Component {
@@ -40,7 +41,7 @@ class SelectCityPage extends Component {
 
     return (
       <div className={css(styles.container)} >
-        <div onClick={this.handleCancel.bind(this)} > Cancel </div>
+        <div className={css(styles.listItem)} onClick={this.handleCancel.bind(this)} > Cancel </div>
         {options}
       </div>
     );
@@ -55,7 +56,6 @@ SelectCityPage.propTypes = {
 };
 
 const mapStateToProps = (store) => {
-  // // console.log(state.pokemons.data);
   return {
     city: store.user.userLocation,
     type: store.user.eventType,

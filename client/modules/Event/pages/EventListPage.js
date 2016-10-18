@@ -116,7 +116,7 @@ class EventListPage extends Component {
     return list;
   }
   render() {
-    console.log('Render EventListPage', this.props);
+    console.log('Render EventListPage');
     return (
       <div className={css(styles.container)} >
         <EventFilter city={this.props.city} />
