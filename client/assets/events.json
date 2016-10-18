@@ -1,0 +1,272 @@
+[
+  {
+    "title": "Professional Bull Riders",
+    "color": "#C4122E",
+    "location": "SAP Center",
+    "city": "SFBayArea",
+    "type": "sports",
+    "date": "10/12/2016",
+    "id": 1
+  },
+  {
+    "title": "Golden State Warriors",
+    "color": "#FDB927",
+    "location": "Oracle Arena",
+    "city": "SFBayArea",
+    "type": "sports",
+    "date": "10/21/2016",
+    "id": 2
+  },
+  {
+    "title": "Oakland Raiders",
+    "color": "#A5ACAF",
+    "location": "O.CO Coliseum",
+    "city": "SFBayArea",
+    "type": "sports",
+    "date": "10/16/2016",
+    "id": 3
+  },
+  {
+    "title": "San Jose Earthquakes",
+    "color": "#0051BA",
+    "location": "Avaya Stadium",
+    "city": "SFBayArea",
+    "type": "sports",
+    "date": "10/16/2016",
+    "id": 4
+  },
+  {
+    "title": "California Football",
+    "color": "#FCB326",
+    "location": "Memorial Stadium",
+    "city": "SFBayArea",
+    "type": "sports",
+    "date": "10/21/2016",
+    "id": 5
+  },
+  {
+    "title": "Stanford Football",
+    "color": "#C4122E",
+    "location": "Stanford Stadium",
+    "city": "SFBayArea",
+    "type": "sports",
+    "date": "10/22/2016",
+    "id": 6
+  },
+  {
+    "title": "San Francisco Giants",
+    "color": "#FD5A1E",
+    "location": "AT&T Park",
+    "city": "SFBayArea",
+    "type": "sports",
+    "date": "4/10/2017",
+    "id": 7
+  },
+  {
+    "title": "Seven Lions",
+    "color": "#C4122E",
+    "location": "SAP Center",
+    "city": "SFBayArea",
+    "type": "shows",
+    "date": "10/12/2016",
+    "id": 8
+  },
+  {
+    "title": "Schoolboy",
+    "color": "#FDB927",
+    "location": "Oracle Arena",
+    "city": "SFBayArea",
+    "type": "shows",
+    "date": "10/21/2016",
+    "id": 9
+  },
+  {
+    "title": "Treasure Island Festival",
+    "color": "#A5ACAF",
+    "location": "O.CO Coliseum",
+    "city": "SFBayArea",
+    "type": "shows",
+    "date": "10/16/2016",
+    "id": 10
+  },
+  {
+    "title": "Troye Sivan",
+    "color": "#0051BA",
+    "location": "Avaya Stadium",
+    "city": "SFBayArea",
+    "type": "shows",
+    "date": "10/16/2016",
+    "id": 11
+  },
+  {
+    "title": "Hannibal Buress",
+    "color": "#FCB326",
+    "location": "Memorial Stadium",
+    "city": "SFBayArea",
+    "type": "shows",
+    "date": "10/21/2016",
+    "id": 512
+  },
+  {
+    "title": "Clutch",
+    "color": "#C4122E",
+    "location": "Stanford Stadium",
+    "city": "SFBayArea",
+    "type": "shows",
+    "date": "10/22/2016",
+    "id": 643
+  },
+  {
+    "title": "Pentatonix",
+    "color": "#FD5A1E",
+    "location": "AT&T Park",
+    "city": "SFBayArea",
+    "type": "shows",
+    "date": "4/10/2017",
+    "id": 7579
+  },
+  {
+    "title": "Georgia Tech Football",
+    "color": "#C4122E",
+    "location": "SAP Center",
+    "city": "Atlanta",
+    "type": "sports",
+    "date": "10/12/2016",
+    "id": 1
+  },
+  {
+    "title": "Atlanta Falcons",
+    "color": "#FDB927",
+    "location": "Oracle Arena",
+    "city": "Atlanta",
+    "type": "sports",
+    "date": "10/21/2016",
+    "id": 2
+  },
+  {
+    "title": "Oakland Raiders",
+    "color": "#A5ACAF",
+    "location": "O.CO Coliseum",
+    "city": "Atlanta",
+    "type": "sports",
+    "date": "10/16/2016",
+    "id": 3
+  },
+  {
+    "title": "Auburn Basketball",
+    "color": "#0051BA",
+    "location": "Avaya Stadium",
+    "city": "Atlanta",
+    "type": "sports",
+    "date": "10/16/2016",
+    "id": 4
+  },
+  {
+    "title": "Atlanta Hawks",
+    "color": "#FCB326",
+    "location": "Memorial Stadium",
+    "city": "Atlanta",
+    "type": "sports",
+    "date": "10/21/2016",
+    "id": 5
+  },
+  {
+    "title": "Georgia Football",
+    "color": "#C4122E",
+    "location": "Stanford Stadium",
+    "city": "Atlanta",
+    "type": "sports",
+    "date": "10/22/2016",
+    "id": 6
+  },
+  {
+    "title": "WWE Live",
+    "color": "#FD5A1E",
+    "location": "AT&T Park",
+    "city": "Atlanta",
+    "type": "sports",
+    "date": "4/10/2017",
+    "id": 7
+  },
+  {
+    "title": "Amy Schumer",
+    "color": "#C4122E",
+    "location": "SAP Center",
+    "city": "Atlanta",
+    "type": "shows",
+    "date": "10/12/2016",
+    "id": 8
+  },
+  {
+    "title": "Scott Bradlee",
+    "color": "#FDB927",
+    "location": "Oracle Arena",
+    "city": "Atlanta",
+    "type": "shows",
+    "date": "10/21/2016",
+    "id": 9
+  },
+  {
+    "title": "Treasure Island Festival",
+    "color": "#A5ACAF",
+    "location": "O.CO Coliseum",
+    "city": "Atlanta",
+    "type": "shows",
+    "date": "10/16/2016",
+    "id": 10
+  },
+  {
+    "title": "Troye Sivan",
+    "color": "#0051BA",
+    "location": "Avaya Stadium",
+    "city": "Atlanta",
+    "type": "shows",
+    "date": "10/16/2016",
+    "id": 11
+  },
+  {
+    "title": "Hannibal Buress",
+    "color": "#FCB326",
+    "location": "Memorial Stadium",
+    "city": "Atlanta",
+    "type": "shows",
+    "date": "10/21/2016",
+    "id": 512
+  },
+  {
+    "title": "Clutch",
+    "color": "#C4122E",
+    "location": "Stanford Stadium",
+    "city": "Atlanta",
+    "type": "shows",
+    "date": "10/22/2016",
+    "id": 643
+  },
+  {
+    "title": "Pentatonix",
+    "color": "#FD5A1E",
+    "location": "AT&T Park",
+    "city": "Atlanta",
+    "type": "shows",
+    "date": "4/10/2017",
+    "id": 7579
+  },
+  {
+    "title": "Pentatonix",
+    "color": "#FD5A1E",
+    "location": "AT&T Park",
+    "city": "Dallas",
+    "type": "shows",
+    "date": "4/10/2017",
+    "id": 7579
+  },
+  {
+    "title": "Dallas Cowboys",
+    "color": "#FD5A1E",
+    "location": "AT&T Park",
+    "city": "Dallas",
+    "type": "sports",
+    "date": "4/10/2017",
+    "id": 7579
+  }
+]
