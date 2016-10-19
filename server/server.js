@@ -95,7 +95,7 @@ app.use((req, res, next) => {
 
     const store = configureStore();
 
-    return fetchComponentData(store, renderProps.components, renderProps.params)
+    return fetchComponentData(store, renderProps.components, renderProps.params, renderProps.location.query)
       .then(() => {
         const { html, css } = StyleSheetServer.renderStatic(() => {
           return renderToString(

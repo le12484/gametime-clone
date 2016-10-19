@@ -111,7 +111,7 @@ class EventListPage extends Component {
   _renderList() {
     const list = [];
     this.props.events.data.forEach((event) => {
-      list.push(<EventCard color={event.color} key={event.id} title={event.title} />);
+      list.push(<EventCard city={event.city} type={event.type} id={event.id} color={event.color} key={event.id} title={event.title} />);
     });
     return list;
   }
@@ -129,9 +129,13 @@ class EventListPage extends Component {
 }
 
 
-EventListPage.need = [(params, store) => {
+EventListPage.need = [(params, query, store) => {
   // console.log(store);
-  // console.log(params);
+  console.log('EventListPage.need params', params);
+  console.log('EventListPage.need query', query);
+  if (params && query && params.city && query.type) {
+    return getEvents(params.city, query.type);
+  }
   return getEvents(store.user.userLocation, store.user.eventType);
 }];
 

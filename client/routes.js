@@ -32,6 +32,7 @@ if (typeof require.ensure !== 'function') {
 if (process.env.NODE_ENV !== 'production') {
   // Require async routes only in development for react-hot-reloader to work.
   require('./modules/Event/pages/EventListPage');
+  require('./modules/Event/pages/EventListPage');
 }
 
 // react-router setup with code-splitting
@@ -54,6 +55,16 @@ export default (
         });
       }}
     />
+
+    <Route
+      path="/event/:eventId"
+      getComponent={(nextState, cb) => {
+        require.ensure([], require => {
+          cb(null, require('./modules/Event/pages/EventDetailsPage').default);
+        });
+      }}
+    />
+
 
     <Route
       path="/selectCity"

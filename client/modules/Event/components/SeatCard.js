@@ -1,7 +1,6 @@
 
 import React, { PropTypes } from 'react';
 import { StyleSheet, css } from 'aphrodite';
-import { Link } from 'react-router';
 
 const styles = StyleSheet.create({
   container: {
@@ -29,20 +28,18 @@ const styles = StyleSheet.create({
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
     backgroundSize: 'cover',
-
   },
   title: {
     fontWeight: 'bolder',
     padding: '0.3rem',
     width: '100%',
-    textDecoration: 'none',
-    color: 'black',
+    color: 'white',
   },
 });
 
 import bg from '../../../assets/football1.jpeg';
 
-const EventCard = (props) => {
+const SeatCard = (props) => {
   const inlineStyle = {
     backgroundColor: 'black',
     backgroundImage: `url(${bg})`,
@@ -54,20 +51,16 @@ const EventCard = (props) => {
         <div style={{ paddingBottom: '25%' }}>
         </div>
       </div>
-      <Link to={`/event/${props.id}?city=${props.city}&type=${props.type}&title=${props.title}`} className={css(styles.title)} style={{ backgroundColor: props.color }} >
+      <div className={css(styles.title)} >
         {props.title.toUpperCase()}
-      </Link>
+      </div>
     </div >
   );
 };
 
 
-EventCard.propTypes = {
-  id: PropTypes.number.isRequired,
-  title: PropTypes.string.isRequired,
-  color: PropTypes.string.isRequired,
-  city: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
+SeatCard.propTypes = {
+  title: PropTypes.string,
 };
 
-export default EventCard;
+export default SeatCard;

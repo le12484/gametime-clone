@@ -14,3 +14,10 @@ export default function EventReducer(state = initialState, action) {
 }
 
 
+export function getEvent(state, id) {
+  const tempId = Number(id);
+  return state.events.data.find(event => {
+    return event.id === tempId;
+  });
+}
+
